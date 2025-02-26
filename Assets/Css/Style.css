@@ -1,0 +1,175 @@
+* {
+  font-family: Georgia, serif;
+}
+
+.main {
+  background-image: url('/Assets/img/BG1.2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-link {
+  color: #8aa191;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0px;
+}
+
+button {
+  background-color: #333038;
+  color: #8aa191;
+  padding: 10px 20px;
+  border: solid;
+  border-color: #8aa191;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit,
+.right {
+  float: right;
+}
+
+.submitAR {
+  float: left;
+}
+
+.intro-div {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(calc(-50% + 5px));
+  background-color: #333038;
+  padding: 10px;
+  margin: 0 160px 0 0;
+  color: #8aa191;
+  width: 620px;
+  border-radius: 5px;
+  line-height: 1.5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  border-style: none none none solid;
+  border-width: 5px;
+}
+
+.about-section {
+  padding: 50px 0;
+}
+
+.AboutUs {
+  background-color: #8aa191;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer {
+  background-color: #333038;
+  padding: 10px;
+  text-align: center;
+  color: #8aa191;
+}
+
+.FooterIndex {
+  margin: 900px 0 0 0;
+}
+
+.FooterAboutUs {
+  margin: 100px 0 0 0;
+}
+
+.ContactUsFooter {
+  margin: 160px 0 0 0;
+}
+
+.text {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.containerCU {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #333038;
+  color: #8aa191;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.button:hover {
+  color: #333038;
+  background: #8aa191;
+  transition-duration: 0.4s;
+}
+
+.submit:hover {
+  color: #333038;
+  background: #8aa191;
+  transition-duration: 0.4s;
+}
+
+label {
+  margin: 5px;
+}
+
+.Margin {
+  margin: 80px 0 10px 0;
+}
+
+.textareaCu {
+  resize: none;
+  width: 520px;
+  height: 120px;
+}
+
+.textareaIn {
+  resize: none;
+  width: 595px;
+  height: 120px;
+}
+
+#result {
+  color: red;
+  font-weight: bold;
+}
+
+.card {
+  margin: 20px;
+  background: #333038;
+  color: #8aa191;
+}
+
+.CardM {
+  margin: 0 0 0 20px;
+}
+
+.cardARR {
+  border-radius: 0 5px 5px 0 !important;
+}
+
+.cardARL {
+  border-radius: 5px 0 0 5px !important;
+}
+
+.OurServiceFooter {
+  margin: 80px 0 0 0;
+}
+
+.OurServicesArFooter {
+  margin: 100px 0 0 0;
+}
+
+.btn {
+  margin: 5px;
+  color: #8aa191;
+}

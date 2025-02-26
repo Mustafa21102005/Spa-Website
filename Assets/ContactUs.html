@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="Css/Style.css">
+</head>
+
+<body class="AboutUs">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a href="Index.html"><i class="fa-solid fa-spa" style="color: #8aa191;"> JourneyJunction</i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="OurServices.html">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ContactUs.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="Arabic.html">عربي</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="containerCU">
+    <h1>Contact Us</h1>
+    <form id="spaForm" action="https://formspree.io/f/xnqeqkbw" method="POST">
+      <div>
+        <input type="text" placeholder="Enter Your Full Name" id="name" name="name" required minlength="3">
+      </div>
+      <div>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+      </div>
+      <div>
+        <textarea class="textareaCu" id="message" name="message" placeholder="Enter Your message" required
+          minlength="10"></textarea>
+      </div>
+      <button class="submit" value="Submit" id="submitButton" type="submit">Submit</button>
+      <p id="result"></p>
+    </form>
+    <div class="visit">
+      <h2 class="Margin">Visit Us</h2>
+      <p>123 Spa Street</p>
+      <p>USA, Washington, 17271</p>
+      <p>Phone: 123-456-7890</p>
+      <p>Email: Help@JourneyJunction.com</p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3439.9324282731795!2d-84.3038144!3d30.4380174!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssa!4v1705496730688!5m2!1sen!2ssa"
+        width="520" height="400" style="border:0;" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+
+  <footer class="ContactUsFooter">
+    <p>&copy; 2024 JourneyJunction. All rights reserved.</p>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/bd3f4c75d6.js" crossorigin="anonymous"></script>
+  <script src="JS/Main.js"></script>
+
+</body>
+
+</html>

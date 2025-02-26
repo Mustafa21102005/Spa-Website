@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="Arabic" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JourneyJunction</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="Css/Style.css">
+</head>
+
+<body class="main">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a href="Arabic.html"><i class="fa-solid fa-spa" style="color: #8aa191;"> JourneyJunction</i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="OurServicesAr.html">خدماتنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutUsAr.html">من نحن</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ContactUsAr.html">تواصل معنا</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="Index.html">English</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="intro-div">
+    <p>
+      مرحبًا بك في JourneyJunction، مكان السلام والتجديد. يدعوك منتجعنا الصحي للشروع في رحلة تحويلية، حيث يقع على مفترق
+      طرق الهدوء والرفاهية. انغمس في منطقة حيث تمتزج الطقوس المهدئة والعلاجات المتخصصة والأجواء الهادئة لتخلق ملاذًا
+      مريحًا. نحن نخلق تجارب تتجاوز المألوف في JourneyJunction، ونرشدك في رحلة عافية سعيدة. نحن ندعوك للاسترخاء وإعادة
+      شحن طاقتك واكتشاف جوهر الهدوء الحقيقي بينما تنغمس في فن الرعاية الذاتية.<i><br><br>لبدء عملية التسجيل الخاصة بك،
+        يرجى إكمال النموذج الموجود أدناه. نحن نقدر اهتمامك ونتطلع إلى الترحيب بك في منتجعنا الصحي. شكرًا لاختيارك لنا
+        لنكون جزءًا من رحلتك الصحية.</i>
+    </p>
+    <form id="spaForm" action="https://formspree.io/f/xnqeqkbw" method="POST">
+      <div>
+        <input type="text" placeholder="أدخل اسمك الكامل" id="name" name="name" required required minlength="3">
+      </div>
+      <div>
+        <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" required>
+      </div>
+      <div>
+        <input dir="rtl" type="tel" id="phone" name="phone" placeholder="أدخل رقم هاتفك" required>
+      </div>
+      <div>
+        <textarea id="message" name="message" class="textareaIn" placeholder="أدخل رسالتك" required required
+          minlength="10"></textarea>
+      </div>
+      <button class="submit submitAR" value="Submit" id="submitButton" type="submit">إرسال</button>
+    </form>
+    <p id="result"></p>
+  </div>
+
+
+  <footer class="FooterIndex">
+    <p>&copy; 2024 JourneyJunction كل الحقوق محفوظة.</p>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/bd3f4c75d6.js" crossorigin="anonymous"></script>
+  <script src="JS/Main.js"></script>
+
+</body>
+
+</html>

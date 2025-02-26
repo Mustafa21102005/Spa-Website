@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JourneyJunction</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="Css/Style.css">
+</head>
+
+<body class="main">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a href="Index.html"><i class="fa-solid fa-spa" style="color: #8aa191;"> JourneyJunction</i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="OurServices.html">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ContactUs.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="Arabic.html">عربي</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="intro-div">
+    <p>
+      Welcome to JourneyJunction, a spot of peace and renewal. Our spa invites you to embark on a transformative
+      journey, situated at the crossroads of peacefulness and luxury. Immerse yourself in an area where soothing
+      rituals, expert therapies, and a peaceful atmosphere mix to create a relaxing retreat. We create experiences that
+      go beyond the ordinary at JourneyJunction, guiding you on a blissful wellness journey. We invite you to unwind,
+      recharge, and discover the essence of true calmness as you indulge in the art of self-care.<i><br><br>To initiate
+        your registration process, kindly complete the form provided below. We appreciate your interest and look forward
+        to welcoming you to our spa. Thank you for choosing us to be part of your wellness journey.</i>
+    </p>
+    <form id="spaForm" action="" method="POST">
+      <div>
+        <input type="text" placeholder="Enter Your Full Name" id="name" name="name" required required minlength="3">
+      </div>
+      <div>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+      </div>
+      <div>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone Number" required>
+      </div>
+      <div>
+        <textarea id="message" name="message" class="textareaIn" placeholder="Enter Your message" required required
+          minlength="10"></textarea>
+      </div>
+      <button class="submit" value="Submit" id="submitButton" type="submit">Submit</button>
+    </form>
+    <p id="result"></p>
+  </div>
+
+
+  <footer class="FooterIndex">
+    <p>&copy; 2024 JourneyJunction. All rights reserved.</p>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/bd3f4c75d6.js" crossorigin="anonymous"></script>
+  <script src="JS/Main.js"></script>
+
+</body>
+
+</html>

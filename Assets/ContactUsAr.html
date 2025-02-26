@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="Arabic" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تواصل معنا</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="Css/Style.css">
+</head>
+
+<body class="AboutUs">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a href="Arabic.html"><i class="fa-solid fa-spa" style="color: #8aa191;"> JourneyJunction</i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="OurServicesAr.html">خدماتنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutUsAr.html">من نحن</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ContactUsAr.html">تواصل معنا</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="Index.html">English</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="containerCU">
+    <h1>تواصل معنا</h1>
+    <form id="spaForm" action="https://formspree.io/f/xnqeqkbw" method="POST">
+      <div>
+        <input type="text" placeholder="أدخل اسمك الكامل" id="name" name="name" required minlength="3">
+      </div>
+      <div>
+        <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" required>
+      </div>
+      <div>
+        <textarea class="textareaCu" id="message" name="message" placeholder="أدخل رسالتك" required
+          minlength="10"></textarea>
+      </div>
+      <button class="submit submitAR" value="Submit" id="submitButton" type="submit">إرسال</button>
+      <p id="result"></p>
+    </form>
+    <div class="visit">
+      <h2 class="Margin">زورونا</h2>
+      <p> شارع سبا 123</p>
+      <p>الولايات المتحدة الأمريكية، واشنطن، 17271</p>
+      <p>الهاتف: 789-456-123</p>
+      <p>البريد الإلكتروني: Help@JourneyJunction.com</p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3439.9324282731795!2d-84.3038144!3d30.4380174!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssa!4v1705496730688!5m2!1sen!2ssa"
+        width="520" height="400" style="border:0;" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <footer class="ContactUsFooter">
+    <p>&copy; 2024 JourneyJunction كل الحقوق محفوظة.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/bd3f4c75d6.js" crossorigin="anonymous"></script>
+  <script src="JS/Main.js"></script>
+
+</body>
+
+</html>
